@@ -6,7 +6,7 @@ mov al,[si]
 inc si
 
 up: cmp al,[si] 
-jc big
+jc big   ;jnc big For Decending Order
 mov bl,[si]
 mov [si],al
 dec si
